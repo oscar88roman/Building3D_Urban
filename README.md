@@ -1,36 +1,41 @@
-🌆 Building3D Urban Reconstruction Dataset 🌆
+# 🌆 Building3D Urban Reconstruction Dataset 🌆
 
-Overview
+## Overview
 
-Welcome to my GitHub repository for the Building3D Challenge, a pioneering project focused on urban-scale building roof reconstruction using aerial LiDAR point clouds. This repository serves as the central hub for participants and researchers engaged in the challenge, offering tools and data for exploring advanced techniques in urban modeling.
+Welcome to my GitHub repository for the **Building3D Challenge**, an urban-scale building roof reconstruction project using aerial LiDAR point clouds. This repository supports participants and researchers in the challenge, providing key resources for advancing 3D urban modeling techniques.
 
-The Building3D dataset spans 16 cities in Estonia, covering 998 km² and featuring over 160,000 buildings. It includes:
+The **Building3D** dataset covers **16 cities** in Estonia, spanning **998 km²** with over **160,000 buildings**. It offers:
 
-Mesh Models: Detailed 3D roof representations for realistic modeling.
-LiDAR Point Clouds: Capturing urban environments with high accuracy.
-Wireframe Models: Simplified 3D representations for efficient analysis.
-This resource will support cutting-edge research and development in urban reconstruction, mesh simplification, point cloud completion, and semantic segmentation.
+- **Mesh Models**: High-detail 3D roof representations.
+- **LiDAR Point Clouds**: Accurate real-world urban data.
+- **Wireframe Models**: Simplified 3D structures for streamlined analysis.
 
-Dataset Access
+This dataset is designed to accelerate research in urban reconstruction, mesh simplification, point cloud completion, and semantic segmentation.
 
-Eligibility: Access is granted to users with educational or non-commercial accounts. Only university or company email addresses are eligible for prize awards. Free email providers (e.g., gmail.com, qq.com) are not accepted.
+## Dataset Access
 
-Testing: Participants must evaluate their methods using data from Tallinn City. Rankings will be determined based on WED scores.
+**Eligibility**: Access is available to users with educational or non-commercial accounts. Only university or company emails are eligible for prize awards, with free email providers (e.g., gmail.com) not accepted.
 
-Data Types
+**Testing**: Participants must test their methods using datasets from Tallinn City. Final rankings are determined by WED scores.
 
-Building Point Clouds: Includes XYZ coordinates, RGB color, near-infrared data, intensity, and reflectance.
-Roof Point Clouds: Focused specifically on roof structures.
-Mesh Models: Created from LiDAR and building footprints using Terrasolid software.
-Wireframe Models: Simplified representations consisting of vertices and edges.
-Getting Started
+## Data Types
 
-Explore the Dataset: Building3D on Hugging Face
-Download: Available to users with valid educational or non-commercial email addresses.
-Contribute: Fork the repository and contribute to the project!
-References
+- **Building Point Clouds**: Includes XYZ coordinates, RGB color, near-infrared, intensity, and reflectance.
+- **Roof Point Clouds**: Focused on roof structures, excluding facades.
+- **Mesh Models**: Generated from LiDAR and building footprints, refined using Terrasolid software.
+- **Wireframe Models**: Simplified 3D representations using vertices and edges.
 
-Research Paper
-Website
-Ready to dive into urban reconstruction? Visit our website and start exploring the dataset!
+## Getting Started
+
+1. **Explore the Dataset**: [Building3D on Hugging Face](https://huggingface.co/spaces/Building3D/USM3D)
+2. **Download**: Available to users with valid educational or non-commercial email addresses.
+3. **Contribute**: Fork the repository and make contributions!
+
+## References
+
+- [Research Paper](https://huggingface.co/spaces/Building3D/USM3D)
+- [Website](https://huggingface.co/spaces/Building3D/USM3D)
+
 ---
+
+Ready to get started with urban reconstruction? Explore the dataset on our [website](https://huggingface.co/spaces/Building3D/USM3D)!
