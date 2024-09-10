@@ -1,42 +1,36 @@
-# 🌆 Building3D Urban Reconstruction Dataset 🌆
+🌆 Building3D Urban Reconstruction Dataset 🌆
 
-## Overview
+Overview
 
-Welcome to **Building3D**, an innovative dataset for urban-scale building roof modeling derived from aerial LiDAR point clouds. Spanning **16 cities** in Estonia and covering **998 km²**, Building3D features:
+Welcome to my GitHub repository for the Building3D Challenge, a pioneering project focused on urban-scale building roof reconstruction using aerial LiDAR point clouds. This repository serves as the central hub for participants and researchers engaged in the challenge, offering tools and data for exploring advanced techniques in urban modeling.
 
-- **160,000+ Buildings**: Comprehensive coverage for extensive research.
-- **Mesh Models**: Detailed 3D roof representations.
-- **LiDAR Point Clouds**: Real-world data capturing the urban environment.
-- **Wireframe Models**: New addition for simplified 3D representation.
+The Building3D dataset spans 16 cities in Estonia, covering 998 km² and featuring over 160,000 buildings. It includes:
 
-We believe Building3D will significantly advance research in urban modeling, mesh simplification, point cloud completion, and semantic segmentation.
+Mesh Models: Detailed 3D roof representations for realistic modeling.
+LiDAR Point Clouds: Capturing urban environments with high accuracy.
+Wireframe Models: Simplified 3D representations for efficient analysis.
+This resource will support cutting-edge research and development in urban reconstruction, mesh simplification, point cloud completion, and semantic segmentation.
 
-## Dataset Access
+Dataset Access
 
-**Eligibility**: The dataset is available for download to users with educational or non-commercial accounts. Only university or company email addresses will be accepted for prize awards. Accounts with free email providers (e.g., gmail.com, qq.com) are not eligible.
+Eligibility: Access is granted to users with educational or non-commercial accounts. Only university or company email addresses are eligible for prize awards. Free email providers (e.g., gmail.com, qq.com) are not accepted.
 
-**Testing**: Participants must test their methods on datasets from Tallinn City. Final rankings will be determined by WED.
+Testing: Participants must evaluate their methods using data from Tallinn City. Rankings will be determined based on WED scores.
 
-## Data Types
+Data Types
 
-- **Building Point Clouds**: Includes XYZ coordinates, RGB color, near-infrared information, intensity, and reflectance.
-- **Roof Point Clouds**: Focuses solely on roof structures, excluding facades.
-- **Mesh Models**: Generated from aerial LiDAR and building footprints, refined using Terrasolid software.
-- **Wireframe Models**: Simplified 3D models consisting of vertices and edges.
+Building Point Clouds: Includes XYZ coordinates, RGB color, near-infrared data, intensity, and reflectance.
+Roof Point Clouds: Focused specifically on roof structures.
+Mesh Models: Created from LiDAR and building footprints using Terrasolid software.
+Wireframe Models: Simplified representations consisting of vertices and edges.
+Getting Started
 
-## Getting Started
+Explore the Dataset: Building3D on Hugging Face
+Download: Available to users with valid educational or non-commercial email addresses.
+Contribute: Fork the repository and contribute to the project!
+References
 
-1. **Explore the Dataset**: [Building3D on Hugging Face](https://huggingface.co/spaces/Building3D/USM3D)
-2. **Download**: Available to users with valid educational or non-commercial email addresses.
-3. **Contribute**: Feel free to fork the repository and contribute!
-
-## References
-
-- [Research Paper](https://huggingface.co/spaces/Building3D/USM3D)
-- [Website](https://huggingface.co/spaces/Building3D/USM3D)
-
----
-
-Ready to dive in? Head to our [website](https://huggingface.co/spaces/Building3D/USM3D) and start exploring!
-
+Research Paper
+Website
+Ready to dive into urban reconstruction? Visit our website and start exploring the dataset!
 ---
